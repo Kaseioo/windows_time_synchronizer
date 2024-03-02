@@ -4,11 +4,11 @@ This is a simple Python script that synchronizes the system clock on Windows wit
 
 ## Project Releases
 
-If you prefer to use a pre-built executable file instead of running the Python script, you can download the latest release from the [Releases](https://github.com/kaseioo/windows-time-synchronizer/releases) page.
+If you prefer to use a pre-built executable file instead of running the Python script, you can download the latest release from the [Releases](https://github.com/kaseioo/windows_time_synchronizer/releases) page.
 
-1. Go to the [Releases](https://github.com/kaseioo/windows-time-synchronizer/releases) page.
+1. Go to the [Releases](https://github.com/kaseioo/windows_time_synchronizer/releases) page.
 
-2. Download the latest version of the executable file (`windows-time-synchronizer.exe`).
+2. Download the latest version of the executable file (`windows_time_synchronizer.exe`).
 
 3. Double-click the downloaded file to run it.
 
@@ -16,7 +16,7 @@ The executable file provides a convenient way to synchronize the system clock wi
 
 Note: The executable file is built from the same source code as the Python script, so it offers the same functionality.
 
-If you encounter any issues or have any questions, please refer to the [Issues](https://github.com/kaseioo/windows-time-synchronizer/issues) page or contact the project maintainer.
+If you encounter any issues or have any questions, please refer to the [Issues](https://github.com/kaseioo/windows_time_synchronizer/issues) page or contact the project maintainer.
 
 # Development
 
@@ -30,7 +30,7 @@ If you encounter any issues or have any questions, please refer to the [Issues](
 1. Clone the repository:
 
 	```shell
-	git clone https://github.com/kaseioo/windows-time-synchronizer.git
+	git clone https://github.com/kaseioo/windows_time_synchronizer.git
 	```
 
 2. Install the required dependencies:
@@ -46,10 +46,10 @@ If you encounter any issues or have any questions, please refer to the [Issues](
 2. Navigate to the project directory:
 
 	```shell
-	cd windows-time-synchronizer
+	cd windows_time_synchronizer
 	```
 
-2.1. (Optional) Modify the `ntp_servers.txt` file to include the desired NTP servers. If no servers are specified, the script will use the default hardcoded NTP servers.
+3. (Optional) Modify the `ntp_servers.txt` file to include the desired NTP servers. If no servers are specified, the script will use the default hardcoded NTP servers.
 
 	```shell
 	notepad ntp_servers.txt
@@ -62,7 +62,7 @@ If you encounter any issues or have any questions, please refer to the [Issues](
 	time.nist.gov
 	```
 
-3. Run the script:
+4. Run the script:
 
 	```shell
 	python time_synchronizer.py
