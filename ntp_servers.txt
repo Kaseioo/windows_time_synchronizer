@@ -1,0 +1,8 @@
+ntp.iitb.ac.in
+time.nist.gov
+pool.ntp.org
+time.google.com
+time.cloudflare.com
+ntp.nict.jp
+ntps1.pads.ufrj.br
+time.windows.com
