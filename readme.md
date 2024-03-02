@@ -62,7 +62,7 @@ If you encounter any issues or have any questions, please refer to the [Issues](
 	time.nist.gov
 	```
 
-4. Run the script:
+4. Run the script in an elevated (administrator-level) terminal or command prompt:
 
 	```shell
 	python time_synchronizer.py
