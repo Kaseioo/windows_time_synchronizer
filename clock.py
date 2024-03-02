@@ -185,6 +185,7 @@ if __name__ == "__main__":
 		print("No time servers found in ntp_servers.txt. Defaulting to hardcoded time servers instead.")
  
 	print(f"Program is going to use the following time servers: {server_list}.")
+ 
 	for server in server_list:
 		print(f"Current time server: {server}")
 		try:
@@ -210,7 +211,7 @@ if __name__ == "__main__":
 		break
 
 	if not has_updated:
-		print("Failed to update system time from current servers. Update ntp_servers.txt with a new line if you think a new server can work. Press any key to exit.")
+		print("Failed to update system time from current servers. Update ntp_servers.txt with a new line if you think a new server can work.\nPress any key to exit.")
 		wait_for_keypress_before_exiting(1)
 	else:
 		updated_system_time = datetime.now()
