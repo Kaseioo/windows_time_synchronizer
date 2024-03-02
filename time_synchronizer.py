@@ -18,8 +18,12 @@ def read_time_server_list():
 	Returns:
 		list: A list of NTP servers.
 	"""
-	with open("ntp_servers.txt", "r") as f:
-		return f.read().splitlines()
+
+	try:
+		with open("ntp_servers.txt", "r") as f:
+			return f.read().splitlines()
+	except FileNotFoundError:
+		return []
 
 
 def wait_for_keypress_before_exiting(exit_code):
